@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link media="(min-width: 800px)" rel="stylesheet" href="styles-desktop.css">
+    <link media="(max-width: 800px)" rel="stylesheet" href="styles-mobile.css">
+
+    <script src="script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>Simple Portfolio</title>
+</head>
+<body>
+    <div id="pageWrap">
+
+        <div id="modal">
+            <div id="modal-content">
+                <span id="close">&times;</span>
+                <img id="modal-img" src="" alt="">
+                <h1 id="modal-header"></h1>
+                <p id="modal-text"></p>
+            </div>
+        </div>
+
+        <div id="header">
+            <h1 id="title">Adrian Piwin</h1>
+            <div id="border"></div>
+            <div id="navbar">
+                <button class="navbutton" id="homebtn">home</button>
+                <button class="navbutton" id="aboutbtn">about</button>
+                <button class="navbutton" id="contactbtn">contact</button>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div id="homepage">
+
+                <div id="container1" class="imgcontainer">
+                    <img class="images" src="assets/ph1.jpeg" alt="">
+                    <p class="imgtext">Project 01</p>
+                </div>
+
+                <div id="container2" class="imgcontainer">
+                    <img class="images" src="assets/ph3.jpg" alt="">
+                    <p class="imgtext">Project 02</p>
+                </div>
+
+                <div id="container3" class="imgcontainer">
+                    <img class="images" src="assets/ph2.jpg" alt="">
+                    <p class="imgtext">Project 03</p>
+                </div>
+
+                <div id="container4" class="imgcontainer">
+                    <img class="images" src="assets/ph4.jpg" alt="">
+                    <p class="imgtext">Project 04</p>
+                </div>
+
+                <div id="container5" class="imgcontainer">
+                    <img class="images" src="assets/ph5.jpg" alt="">
+                    <p class="imgtext">Project 05</p>
+                </div>
+
+                <div id="container6" class="imgcontainer">
+                    <img class="images" src="assets/ph7.jpg" alt="">
+                    <p class="imgtext">Project 06</p>
+                </div>
+
+                <div id="container7" class="imgcontainer">
+                    <img class="images" src="assets/ph8.png" alt="">
+                    <p class="imgtext">Project 07</p>
+                </div>
+
+                <div id="container8" class="imgcontainer">
+                    <img class="images" src="assets/ph6.jpg" alt="">
+                    <p class="imgtext">Project 08</p>
+                </div>
+
+            </div>
+
+            <div id="aboutme">
+                <img id="aboutme-img" src="assets/me.jpg" alt="">
+                <h1 id="aboutme-header">About Me</h1>
+                <p id="aboutme-content">My name is Adrian Piwin and blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            </div>
+
+            <div id="contact">
+                <img id="contact-img" src="assets/contact.png" alt="">
+                <h1 id="contact-header">Contact</h1>
+                <p id="contact-content">websiteresponses7048@gmail.com<br>647-999-9999</p>
+                <form id="form" method="POST" action="https://formspree.io/websiteresponses7048@gmail.com">
+                    <input id="name"  type="text" name="name" placeholder="Name">
+
+                    <input id="email" type="email" name="email" placeholder="Email">
+
+                    <textarea id="subject" name="message" placeholder="Message" style="height:200px"></textarea>
+
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+
+        </div>
+
+        <footer>
+            <div id="icons">
+                <a href="https://facebook.com" target="_blank" class="socialmedia-links">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://linkedin.com" target="_blank" class="socialmedia-links">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://github.com" target="_blank" class="socialmedia-links">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+            <small><br>&copy; Copyright 2019, Adrian Piwin</small>
+        </footer>
+    </div>
+</body>
+</html>
