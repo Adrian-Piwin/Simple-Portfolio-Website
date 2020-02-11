@@ -36,14 +36,14 @@
           ];
 
           var modalContent = [ // Description of popup in order
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo",
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo",
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo",
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo",
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo",
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo",
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo",
-            "taken in april 13th, 2018 <br>edited by me <br>a wonderful photo"
+            "taken in april 13th, 2018 <br>a wonderful photo",
+            "taken in april 13th, 2018 <br>a wonderful photo",
+            "taken in april 13th, 2018 <br>a wonderful photo",
+            "taken in april 13th, 2018 <br>a wonderful photo",
+            "taken in april 13th, 2018 <br>a wonderful photo",
+            "taken in april 13th, 2018 <br>a wonderful photo",
+            "taken in april 13th, 2018 <br>a wonderful photo",
+            "taken in april 13th, 2018 <br>a wonderful photo"
           ];
 
           // Start on homepage
